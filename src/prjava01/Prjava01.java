@@ -9,7 +9,7 @@ import java.io.*;
 public class Prjava01 {
     /**
      * @param args the command line arguments
-     *hola/
+     */
     public static void main(String[] args) throws IOException {
         File f = new File("fitxer00.html");
         try (BufferedWriter bw = new BufferedWriter(new FileWriter(f))) {
